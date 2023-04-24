@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(22, 19, 29, 0.932);
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+/* The Future has landed */
+
+header a,
+button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.sign-up:hover {
+  background-color: rgba(247, 96, 121, 0.671);
+}
+
+.menu a:hover,
+.landed a:hover,
+.sign-up {
+  background-color: rgb(247, 96, 121);
+  background-color: rgb(247, 96, 121);
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+}
+
+.landed {
+  top: 20px;
+  left: 20px;
+}
+
+.menu {
+  top: 20px;
+  right: 20px;
+}
+
+.text-box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: right;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.text-box p,
+.box1 p {
+  font-size: 21px;
+}
+
+.fa-solid {
+  left: 50%;
+  bottom: 10px;
+  font-size: 40px;
+}
+
+/* Blue Car */
+
+.blue-car {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/picture1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-box2,
+.text-box3,
+.text-box4 {
+  background-color: rgba(22, 19, 29, 0.747);
+  display: flex;
+  font-weight: 500;
+}
+
+.text-box2 {
+  border-top: 3px solid rgb(247, 96, 121);
+  justify-content: space-evenly;
+  padding-top: 100px;
+  height: 40vh;
+  bottom: 0px;
+}
+
+.box1,
+.box2,
+.box3 {
+  flex-basis: 33.33%;
+  padding: 0 100px;
+  line-height: 30px;
+}
+
+.box2,
+.box3 {
+  text-align: justify;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p:nth-child(5) {
+  text-align: justify;
+}
+
+p:nth-child(3) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Red Car Front */
+
+.red-car {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/picture2.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-box3 {
+  width: 35%;
+  margin-left: 65%;
+  height: 100%;
+  border-left: 3px solid rgb(114, 39, 212);
+  padding: 200px 100px;
+  line-height: 30px;
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.box4 .btn:hover {
+  border-color: rgb(17, 199, 138);
+}
+
+.box5 .btn:hover {
+  border-color: rgb(17, 199, 138);
+}
+
+.parent .btn:hover {
+  border-color: rgb(247, 96, 121);
+}
+
+/* Red Car Rear */
+
+.red-car-rear {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/picture3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-box4 {
+  width: 35%;
+  margin-right: 65%;
+  height: 100%;
+  border-right: 3px solid rgb(47, 255, 47);
+  padding: 200px 120px;
+  line-height: 30px;
+}
+
+/* Info */
+
+.single-div {
+  text-align: center;
+  padding: 50px 0;
+}
+
+hr {
+  border: 1px solid rgb(247, 96, 121);
+  width: 35%;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.parent .btn {
+  width: 11%;
+  margin: 10px auto;
+}
+
+.child {
+  flex-basis: 33.33%;
+  text-align: center;
+  padding: 50px;
+}
+
+.child p {
+  font-size: 15px;
+}
+.child i {
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  background-color: rgba(128, 128, 128, 0.281);
+  margin-bottom: 20px;
+}
+
+/* Pink Div */
+
+.pink-div {
+  background-color: rgb(247, 96, 121);
+  text-align: center;
+  padding: 100px 50px;
+}
+
+#email {
+  width: 13%;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.801);
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.767);
+}
+
+#email:focus {
+  outline: none;
+  border-color: rgb(37, 37, 197);
+}
+
+#submit {
+  color: rgb(247, 96, 121);
+  background-color: #fff;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #ffffffc7;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 100px;
+}
+
+.brands {
+  margin-bottom: 20px;
+}
+
+.brands a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.brands a:hover,
+footer a:last-child:hover {
+  color: rgb(247, 96, 121);
+}
+
+.brands a:not(:last-child) {
+  margin-right: 10px;
+}
+
+footer a:last-child {
+  text-decoration-style: dotted;
+  color: #fff;
+}
